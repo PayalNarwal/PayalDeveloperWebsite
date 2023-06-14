@@ -39,7 +39,7 @@ nav ul li a:hover {
 }
 
 .left {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
 }
 
@@ -82,11 +82,13 @@ nav ul li a:hover {
   margin: 20px;
 }
 
-.thirdSection {
+.thirdSection>h3 {
   margin: 20px;
 }
 .table {
   border: 2px solid rgb(165, 86, 187);
+  margin-right: 20px;
+  margin-left: 0;
 }
 .table-heading {
   background: rgb(207, 137, 226) !important;
@@ -112,5 +114,5 @@ nav ul li a:hover {
 
 footer {
   background-color: rgb(101, 15, 124);
-  text-align: center;
+  /* text-align: center; */
 }
