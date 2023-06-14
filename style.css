@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(270deg, #dd99de, #bbf0f1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(101, 15, 124);
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(252, 174, 249);
+  font-size: 1.01rem;
+  text-decoration: overline;
+}
+
+.left {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.right {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.firstSection > div {
+  align-items: center;
+}
+
+#name {
+  color: blueviolet;
+}
+
+#element {
+  color: rgb(170, 96, 239);
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #8e1f88;
+  font-weight: bold;
+}
+
+.content-firstSection {
+  font-size: 100%;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.secondSection {
+  margin: 20px;
+}
+
+.thirdSection {
+  margin: 20px;
+}
+.table {
+  border: 2px solid rgb(165, 86, 187);
+}
+.table-heading {
+  background: rgb(207, 137, 226) !important;
+}
+.forthSection {
+  margin: 20px;
+}
+
+.skills {
+  padding: 40px;
+}
+
+.skills-images {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.skill-name {
+  display: inline-block;
+}
+
+footer {
+  background-color: rgb(101, 15, 124);
+  text-align: center;
+}
