@@ -2,6 +2,9 @@
 
 This is a simple developer portfolio website that showcases my personal information, projects, certificates and contact details.
 
+## Visit the website :
+https://payalnarwal.github.io/PayalDeveloperWebsite/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
