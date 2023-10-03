@@ -5,7 +5,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(270deg, #dd99de, #bbf0f1);
+  background: linear-gradient(1deg, #b87fb9, #283440);
+  background: #283440;
+  /* background: #393d4e; */
+  color: white;
+  
 }
 
 nav {
@@ -68,6 +72,7 @@ nav ul li a:hover {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #8e1f88;
+  color: #ea51d6;
   font-weight: bold;
 }
 
@@ -75,7 +80,7 @@ nav ul li a:hover {
   font-size: 100%;
   padding: 50px;
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
 .secondSection {
