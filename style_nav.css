@@ -1,7 +1,7 @@
 /* Add CSS for responsive navbar and footer */
 
 header {
-    background-color: #333;
+    background-color: rgb(101, 15, 124);
     color: white;
     padding: 10px 0;
 }
@@ -10,8 +10,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    /* max-width: 100%; */
     padding: 0 20px;
     height: 60px;
     background-color: rgb(101, 15, 124);
@@ -67,11 +67,12 @@ nav {
     }
 
     .right ul {
-        gap: 2px;
+        gap: 1px;
     }
 
     .right li {
         font-size: small;
+        margin: 5px;
     }
 }
 
@@ -79,7 +80,7 @@ footer {
     background-color: rgb(101, 15, 124);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px;    
 }
 
 .contact {

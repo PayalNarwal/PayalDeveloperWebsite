@@ -1,0 +1,77 @@
+hr {
+    border: none;
+    height: 1px;
+    background-color: white; /* Set the color to white */
+}
+
+/* Style the project section */
+.project-section {
+    /* padding: 20px; */
+    background-color: #f7f7f7;
+}
+
+
+/* Style the project container */
+.container {
+    margin: 0 auto;
+    /* max-width: 800px; */
+    color: black;
+
+}
+
+/* Style each project */
+.project {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    background-color: #f0f0f0; /* Change the background color to a desired color */
+    border: 1px solid #333; /* Add a border on hover */
+}
+
+
+/* Style project title */
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style project description */
+.project-description {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* Style project link */
+.project-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+
+.tag {
+    background-color: #f157e4;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+
+}
+
+
+
