@@ -1,0 +1,46 @@
+/* Basic styling - Modify as needed */
+
+
+
+main {
+  padding: 40px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #3f4b57;
+  padding: 22px;
+  border-radius: 4px;
+  /* margin: 48px 0px; */
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+

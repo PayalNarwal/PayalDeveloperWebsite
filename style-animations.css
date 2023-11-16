@@ -1,0 +1,88 @@
+.neon-glow {
+  color: #fff;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+.purple-glow {
+  color: #fff;
+  text-shadow: 0 0 10px #ff00ee, 0 0 20px #ff00ee, 0 0 30px #ff00ee;
+}
+
+.circleAnimation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+  margin: 50px;
+}
+
+/* CSS for the outer circle */
+.outer-circle {
+  width: 300px;
+  height: 300px;
+  /* border: 2px solid #333; */
+  border-radius: 50%;
+  /* overflow: hidden; */
+  position: absolute;
+  border: 2px solid white;
+  animation: rotateClockwise 15s linear infinite;
+}
+
+/* CSS for the inner circle */
+.inner-circle {
+  width: 150px;
+  height: 150px;
+  /* border: 2px solid #eb1e1e; */
+  border-radius: 50%;
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  animation: rotateAntiClockwise 18s linear infinite;
+  padding-left: 40px;
+}
+
+@media (max-width: 768px){
+    .inner-circle{
+        height: 95px;
+    }
+    .inner-icon {
+        display: none;
+    }
+}
+/* CSS for the images */
+.circleAnimation img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: contain;
+  position: absolute;
+}
+
+.outer-icon, .inner-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+}
+
+@keyframes rotateClockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAntiClockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
