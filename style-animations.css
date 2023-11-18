@@ -13,7 +13,6 @@
   justify-content: center;
   align-items: center;
   padding: 110px;
-  margin: 50px;
 }
 
 /* CSS for the outer circle */
@@ -26,8 +25,7 @@
   position: absolute;
   border: 2px solid white;
   animation: rotateClockwise 15s linear infinite;
-  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
-        
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;       
 }
 
 /* CSS for the inner circle */
@@ -44,9 +42,14 @@
   border: 2px solid white;
   animation: rotateAntiClockwise 18s linear infinite;
   padding-left: 40px;
+  box-shadow: 0 0 10px #ff00ee, 0 0 20px #ff00ee, 0 0 30px #ff00ee;
+
 }
 
 @media (max-width: 768px){
+    .circleAnimation {
+      margin: 100px 0px;
+    }
     .inner-circle{
         /* display: none; */
         color: #fff;

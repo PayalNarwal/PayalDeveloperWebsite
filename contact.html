@@ -17,6 +17,10 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style_nav.css" />
     <link rel="stylesheet" href="style-contact.css" />
@@ -38,8 +42,6 @@
       </nav>
     </header>
     <main>
-    
-
       <form id="contactForm" onsubmit="sendEmail(); reset(); return false;">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
@@ -62,10 +64,32 @@
         <div class="socials right">
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/payalnarwal">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/payalnarwal"
+                ><i
+                  class="fab fa-linkedin"
+                  style="color: rgb(76, 63, 220); margin: 5px; font-size: 30px"
+                ></i
+                >/payalnarwal</a
+              >
             </li>
-            <li><a href="https://github.com//PayalNarwal">GitHub</a></li>
-            <li><a href="https://www.youtube.com/@payalnarwal">YouTube</a></li>
+            <li>
+              <a href="https://github.com//PayalNarwal"
+                ><i
+                  class="fab fa-github"
+                  style="color: rgb(45, 9, 43); margin: 5px; font-size: 30px"
+                ></i
+                >/PayalNarwal</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@payalnarwal"
+                ><i
+                  class="fab fa-youtube"
+                  style="color: rgb(220, 66, 66); margin: 5px; font-size: 30px"
+                ></i
+                >@payalnarwal</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -73,22 +97,23 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "payal.narwal2003@gmail.com",
-                Password : "",
-                To : 'payal.narwal2003@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New Contact Form Enquiry",
-                Body : "Name: " + document.getElementById("name").value
-                + "<br> Email: " + document.getElementById("email").value
-                + "<br> Message: " + document.getElementById("message").value
-            }).then(
-              message => alert("Message sent successfully !")
-            );
-        }
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "payal.narwal2003@gmail.com",
+          Password: "",
+          To: "payal.narwal2003@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact Form Enquiry",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message sent successfully !"));
+      }
     </script>
-
   </body>
 </html>
